@@ -1,0 +1,11 @@
+pubsub-example:
+  subscription:
+    name: ${EXAMPLE_PUBSUB_SUBSCRIPTION}
+  topic:
+    name: ${EXAMPLE_PUBSUB_TOPIC}
+
+spring:
+  cloud:
+    gcp:
+      credentials:
+        location: classpath:credentials.json
